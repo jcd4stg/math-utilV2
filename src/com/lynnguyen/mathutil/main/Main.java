@@ -1,4 +1,4 @@
-
+ 
 package com.lynnguyen.mathutil.main;
 
 import com.lynnguyen.mathutil.core.MathUtil;
