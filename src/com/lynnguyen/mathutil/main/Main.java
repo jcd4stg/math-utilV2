@@ -20,6 +20,6 @@ public class Main {
         int n = 0; //input test case
         long actual = MathUtil.getFactorial(n);
         System.out.println("5! = " + expected + " expected");
-        System.out.println("5! = " + actual + " actual");
+        //System.out.println("5! = " + actual + " actual");
     }
 }

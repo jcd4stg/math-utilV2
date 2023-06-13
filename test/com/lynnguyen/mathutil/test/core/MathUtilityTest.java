@@ -62,12 +62,14 @@ public class MathUtilityTest {
     //màu đỏ đó  em, do hàm đúng là có ném ngoại lê thực sự
     //nhưng không phải là ngoại lệ như kì vọng - thực sự kì vọng sai
     ////ko phải hàm ném sai
+    
 //    //@Test(expected = NumberFormatException.class)
 //    public void testGetFactorialGivenWrongArgumentThrowException() {
 //        MathUtil.getFactorial( -5);
 //        //hàm @Test chạy, hay getF() chạy   
 //        //sẽ ném về ngoại lệ NumberFormat...
 //    }
+    
     @Test(expected = IllegalArgumentException.class)
     public void testGetFactorialGivenWrongArgumentThrowException() {
         getFactorial(-5);
